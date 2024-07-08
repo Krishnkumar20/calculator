@@ -1,0 +1,42 @@
+.container{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+	input{
+	display: grid;
+	grid-column: span 4;
+	height: 100px;
+	width: 260px;
+	border: none;
+	border-radius: 12px;
+	background: black;
+	font-size: 30pt;
+	color: white;
+	text-align:right;
+	}
+	.calculator{
+	display: grid;
+	border-radius: 2px;
+	padding: 12px;
+	height: 450px;
+	border-radius: 27px;
+	background: gray;
+	box-shadow: 0px 2px 5px 3px black;
+	}
+	button{
+	border-radius: 27px;
+	border: none;
+	height: 59px;
+	width: 58px;
+	font-size: 20pt;
+	}
+	.first
+	{
+	background: rgb(167 177 223);
+	}
+	button:active
+	{
+	background: rgb(144, 144, 199);
+	}
